@@ -30,7 +30,7 @@
     <script type="text/template" id="mainTemplate">
             <%$.each(mainData,function(index,item){%>
                 <li>
-                    <p class="news-title"><a href="newsDetail.html?id=<%=item.id%>"><%=item.title%></a></p>
+                    <p class="news-title"><a href="<%=item.content%>" target="_blank"><%=item.title%></a></p>
                     <span><%=item.createAt%></span>
                 </li>
             <%})%>

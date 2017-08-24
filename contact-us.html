@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/reset.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <title>联系我们</title>
 </head>
 <body>
@@ -23,5 +24,17 @@
         </ul>
     </nav>
 </header>
+    <ul class="contact-content">
+        <li>客服热线:<i>0394-7597666</i></li>
+        <li>销售热线:<i>0394-7597666</i></li>
+        <li>公司传真:<i>0394-7597666</i></li>
+    </ul>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script>
+    $(function () {
+        $(".contact-content").addClass("animated bounceInLeft")
+    })
+</script>
 </body>
 </html>

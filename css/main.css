@@ -256,10 +256,11 @@ header{
     justify-content: space-between;
   }
 #products-case ul li{
-    width:30%;
+    width:25%;
     box-shadow:8px 8px 8px #888;
     border-radius:10px;
-    margin:30px;
+    margin:45px;
+    height:280px;
 }
 
 #products-case .case-title{
@@ -275,12 +276,13 @@ header{
     text-align: center;
 }
 #products-case .up-content{
-    font-size:16px;
+    font-size:18px;
     line-height:24px;
     text-indent: 2em;
     margin-bottom:20px;
     background-color: #d6d6d6;
     text-align: left;
+    padding:10px;
 }
 #products-case .down-content{
     font-size:20px;
@@ -313,5 +315,56 @@ header{
     font-weight: 500;
     font-size:20px;
     padding-left:5px;
-
+}
+.about-content{
+    width:1000px;
+    margin:40px auto;
+}
+.about-intro,.about-culture{
+    width:1000px;
+    margin-top:40px;
+    background-color: #73b6c7;
+    box-shadow: 4px 4px 4px #999;
+}
+.about-intro-title{
+    text-align:center;
+    height:30px;
+    line-height: 30px;
+    font-size:30px;
+    margin:20px;
+    color:#fff;
+    padding-top:10px;
+}
+.about-intro-main{
+    display:flex;
+    align-items: flex-start;
+}
+.about-intro-des{
+    margin-left:40px;
+}
+.about-intro-des p,.about-culture-content p{
+    font-size:18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom:8px;
+    text-indent: 2em;
+    color:#fff;
+    padding-right:10px;
+}
+.about-culture-content{
+    width:100%;
+}
+.about-culture-content img{
+    display: block;
+    margin:5px auto;
+}
+.about-culture-content p{
+    text-align: center;
+    padding-bottom:10px;
+}
+.about-culture-des{
+    margin-top:80px;
+}
+.about-culture-des p{
+    text-align:left;
 }
